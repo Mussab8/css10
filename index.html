@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sign-in-container {
+  background: #fafafa;
+  border-right: 1px solid #eee;
+}
+
+.sign-up-container {
+  background: #fdfdfd;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #2f66f8;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.social-icons a {
+  margin: 0 8px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container sign-in-container">
+      <h2>Welcome Back !</h2>
+      <p>To keep connected with us please login with your personal info</p>
+      <button class="mussab 0">Sign In</button>
+    </div>
+
+    <div class="form-container sign-up-container">
+      <h2>Create Account</h2>
+      <div class="mussab 1">
+        <a href=""><img src="pic 2.png"/></a>
+      </div>
+      <p>or use email for registration</p>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <button class="mussab 2">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
